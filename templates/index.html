@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trading Bot UI</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f2f7ff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      width: 350px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2a4d8f;
+      margin-bottom: 24px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      font-size: 14px;
+    }
+
+    input[type="submit"] {
+      background-color: #2a4d8f;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #1d3566;
+    }
+
+    p {
+      text-align: center;
+      font-weight: bold;
+      color: #2a4d8f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Place an Order</h1>
+    <form method="post">
+      <label>Symbol:</label>
+      <input name="symbol" required>
+
+      <label>Side:</label>
+      <select name="side">
+        <option value="BUY">Buy</option>
+        <option value="SELL">Sell</option>
+      </select>
+
+      <label>Order Type:</label>
+      <select name="order_type">
+        <option value="MARKET">Market</option>
+        <option value="LIMIT">Limit</option>
+      </select>
+
+      <label>Quantity:</label>
+      <input name="quantity" type="number" step="any" required>
+
+      <label>Price (limit orders only):</label>
+      <input name="price" type="number" step="any">
+
+      <input type="submit" value="Place Order">
+    </form>
+
+    <p>{{ message }}</p>
+  </div>
+</body>
+</html>
