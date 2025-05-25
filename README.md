@@ -22,7 +22,7 @@ This is a **simplified crypto trading bot** built in Python that interacts with 
 
 ## Demo Screenshot (Web UI)
 
-![Bot UI Screenshot](screenshot.png)  
+![Bot UI Screenshot](demoimage.png)  
 *A lightweight Flask UI to place orders easily.*
 
 ---
