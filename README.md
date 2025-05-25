@@ -41,7 +41,7 @@ This is a **simplified crypto trading bot** built in Python that interacts with 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/binance-trading-bot.git
+git clone https://github.com/expeditive/binance-trading-bot.git
 cd binance-trading-bot
 ````
 
