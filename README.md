@@ -123,8 +123,8 @@ Navigate to `http://127.0.0.1:5000` in your browser.
 Built with passion for Web3 trading and automation.
 If you're looking for a curious and hands-on Python developer – feel free to connect!
 
-**Email:** [your.email@example.com](mailto:artisttejasvaverma@gmail.com)
-**GitHub:** [github.com/yourusername](https://github.com/expeditive)
+**Email:** (mailto:artisttejasvaverma@gmail.com)
+**GitHub:** (https://github.com/expeditive)
 
 ---
 
